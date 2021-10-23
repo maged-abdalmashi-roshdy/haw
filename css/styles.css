@@ -1,0 +1,187 @@
+body{
+  margin: 0 ;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+     /* section one  */
+.secPic {
+  position: relative;
+  text-align: center;
+  color:  #1d1d1f;
+}
+.picText {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 40px ;
+  text-align: left;
+}
+.flex-container {
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+    font-size: 30px;
+    margin: 1% 5%;
+    padding: 2px;
+    background-color: white;
+    position: relative;
+    width: 90%;
+
+
+}
+
+
+.underLine1 , .underLine2 , .underLine3{
+  display: none;
+}
+
+
+     /* section two  */
+     h2{
+        color:#342526;
+        text-align: center;
+        font-size: 200%  ;
+          margin: 15px;
+     }
+.sectionTwo{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap-reverse;
+  height: 350px;
+  margin: 50px;
+}
+
+.sectionTwo > div {
+ color:  #800000;
+  margin: 10px;
+  text-align: left;
+  font-size: 120%;
+}
+
+     /* section three  */
+
+
+.bulletsForms{
+  color:  #800000;
+   margin: 0%  5%;
+   text-align: left;
+   font-size: 50px;
+}
+
+.ownForms1778 , .ownForms1779 , .ownForms1789 , .ownForms1820 , .ownForms1830 {
+display: none;
+  margin-left : 15%;
+     text-align: left;
+}
+.ownFormsH1{
+       font-size: 60px;
+         margin-bottom: 0;
+        color:  #800000;
+}
+.ownFormsP{
+    font-size: 35px;
+    margin-bottom: 0;
+      margin-top: 0;
+}
+
+
+
+     /* section four  */
+.sec4img{
+  margin:  1% 30%;
+
+}
+.sec4img4{
+  width : 540px ;
+  height: 400px ;
+}
+    .imgBox{
+    margin: 0px 30%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-between;
+      align-items:stretch;
+  }
+
+.copyright{
+  background-color: black;
+  color : white ;
+  display: flex;
+  justify-content:space-between;
+    height: 40px ;
+    margin-top:  20px   ;
+    padding: 0 40px ;
+    font-size: 15px;
+
+}
+.help{
+    padding: 0 20px ;
+    text-decoration: underline;
+}
+
+
+
+/* mobil and tablet size */
+
+  @media screen and (max-width : 768px)
+  {
+    .picText {
+      position: absolute;
+      top: 100px;
+      left: 30px;
+      font-size: 30px ;
+      text-align: left;
+    }
+    .sectionTwo{
+      padding-top: 250px;
+    }
+    .sec4img4{
+      width : 310px ;
+      height: 300px ;
+    }
+  }
+  @media screen and (max-width : 356px)
+  {
+    .picText {
+      position: absolute;
+      top: 50px;
+      left: 20px;
+      font-size: 15px ;
+      text-align: left;
+    }
+    .pic1{
+      width:100%;
+       height:100%;
+    }
+    .bulletsForms{
+      color:  #800000;
+       margin: 0%  5%;
+       text-align: left;
+       font-size: 15px;
+    }
+    .sectionTwo{
+      padding-top: 100px;
+    }
+    .ownFormsP{
+      font-size: 15px;
+    }
+    .imgBox1 , .imgBox2 , .imgBox3 , .imgBox4  {
+      width:60px ;
+      height:40px;
+    }
+    .sec4img4{
+      width : 140px ;
+      height: 100px ;
+    }
+    .copyright{
+        font-size: 8px ;
+        padding: 0 20px ;
+        height: 20px ;
+    }
+    .help{
+        padding: 0 2px ;
+    }
+  }
